@@ -1,0 +1,133 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/blogs/18725/images/mM87l2ZsQRSawMLLRlFF_FallLandscape7-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Overlay Styling */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Image Styling */
+  .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Video Styling */
+  .video {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Button Styling */
+  .cool-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* List Styling */
+  ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: lower-roman;
+    position: relative;
+    z-index: 2;
+  }
+  ol li {
+    margin-bottom: 10px;
+  }
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Text Styling */
+  .style1 {
+    font-size: 16px;
+    color: #ffc5c5;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  .style2 {
+    font-size: 36px;
+    color: #b2d5fc;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  .style3 {
+    font-size: 14px;
+    color: #f9c2c2;
+    position: relative;
+    z-index: 2;
+  }
+  .style4 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Box Styling */
+  .box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .tableauPlaceholder {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  .dark-banner {
+    background-color: #e9e9e9; /* Replace with your desired dark color */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  .heading {
+    text-align: center;
+  }
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    /* Add responsive styles as needed */
+  }
